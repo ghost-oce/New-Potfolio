@@ -14,9 +14,9 @@
     <nav class = "navheader">
         <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#aboutme">ABOUT</a></li>
+            <li><a href="#portfolios">PORTFOLIO</a></li>
+            <li><a href="#contactme">CONTACT</a></li>
         </ul>
     </nav>
 
@@ -71,8 +71,16 @@
     <section>
         <div>
             <h1 class = "headings">CONTACT ME !</h1>
-            <form>
-                <input name = "Test">
+            </div>
+            <div id = "contactme">
+            <form id = "textform">
+                <input name = "Name" type  = "Text" class = "Input" placeholder = "Please enter your name">
+                <input name = "Email" type  = "Email" class = "Input" placeholder = "Please enter your email">
+                <input name = "GitHub User" type = "User" class = "Input" placeholder = "Please enter your GitHub User">
+                <textarea id = "message" name = "Message" cols = "40" rows = "20" placeholder = "Please enter your message"></textarea>
+                <input id = "send" type = "Submit" value = "Send">
+
+
             </form>
         </div>
     </section>
