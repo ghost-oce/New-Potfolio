@@ -1,5 +1,11 @@
 /* colours wanted: black, turqouise, grey */
 
+:root {
+    --main-color: black;
+    --secondary-color: rgb(41, 40, 40); 
+    --third-color: turquoise; 
+}
+
 *{
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
@@ -35,15 +41,21 @@ body {
     font-size: 2rem;
     align-items: center; 
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 2px 20px;
     color: whitesmoke;
 }
 
 .navheader ul li a {
-    padding: 10px 20px;
+    padding: 5px 5px;
     color: whitesmoke;
-    text-decoration: none;
-    
+    text-decoration: none;   
+}
+
+.navheader ul li a:hover {
+    background-color: black;
+    color: turquoise;
+    box-shadow: 0 0 0 whitesmoke;
+    border: 0.1px solid;
 }
 
 /* about me section */
