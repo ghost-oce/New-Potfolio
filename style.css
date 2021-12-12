@@ -121,11 +121,63 @@ word-spacing: 10px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin: 5% ;
+    padding: 20px;
     box-sizing: border-box;
-    margin: 20px 20px;
-    padding: 10px 10px;
+    
     border-spacing: 10px;
 }
 /* contact me section */
+
+#contactme {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: black;
+    box-sizing: border-box;
+}
+
+input {
+    width: 60%;
+    margin: 5%;
+    padding: 2px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column; 
+    box-sizing: border-box;
+    text-align: center;
+     
+}
+
+#message {
+    width: 60%;
+    margin: 5%;
+    padding: 2px;
+    outline: none;
+    border: none;
+   
+
+}
+
+#send {
+    width: 60%;
+    padding: 2%; 
+    margin: 5%;
+    outline: none;
+    border: none;
+
+
+}
+
+#send:hover {
+    box-shadow: 1 1 3% turquoise;
+    cursor: pointer;
+    box-shadow: turquoise;
+}
 
 /* media screen section */
