@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(41, 40, 40);;
     color: white;
 }
 /* navigation section */
@@ -52,10 +52,31 @@ body {
 }
 
 .navheader ul li a:hover {
-    background-color: black;
+    background-color: rgb(41, 40, 40);
     color: turquoise;
     box-shadow: 0 0 0 whitesmoke;
     border: 0.1px solid;
+}
+
+#homepage {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background: url(./ASSETS/me.jpg) center no-repeat ;
+    opacity: 10;  
+    box-sizing: 0;
+    height: 1700px;
+    width: 1510px;
+    background-color: rgb(41, 40, 40);
+}
+
+.headings {
+    font-size: 4rem;
+    margin: 50px 10px;
+    text-align: center;
+    border: solid white; 
 }
 
 /* about me section */
