@@ -15,7 +15,6 @@
 
 body {
     background-color: rgb(41, 40, 40);;
-    color: white;
 }
 /* navigation section */
 
@@ -59,27 +58,59 @@ body {
 }
 
 #homepage {
-    position: absolute;
     flex-direction: column;
-    display: flex;
-    align-items: center; 
     justify-content: center;
-    background: url(./ASSETS/me.jpg) center no-repeat ;
-    opacity: 10;  
-    box-sizing: 0;
-    height: 1700px;
-    width: 1510px;
-    background-color: rgb(41, 40, 40);
+    height: 1600px;
+    align-items: center;
+    display: flex;
 }
 
-.headings {
-    font-size: 4rem;
-    margin: 50px 10px;
-    text-align: center;
-    border: solid white; 
+
+#homepage::before{
+    position: flex;
+    content:"";
+    background: url('./ASSETS/me.jpg') center center/cover no-repeat;
+    height: 1300px;
+    width: 1000px;
+    opacity: 10;
+}
+
+.main {
+    display: flex;
+    border: 2px solid white;
+    flex-direction: column;
+    align-items: center;
+    position: ;
+    color: white;
+    font-size: 50px;
 }
 
 /* about me section */
+
+.headings {
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px 0px; 
+    background-color: white;
+    color: black;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#aboutmepara {
+display: flex;
+flex-direction: column;
+color: white;
+font-size: 25px;
+margin: 10px 10px;
+word-spacing: 10px;
+}
 
 /* portfolio section */
 
